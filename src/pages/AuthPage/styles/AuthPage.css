@@ -1,0 +1,35 @@
+.auth_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.auth_card{
+    padding: 2rem;
+    width: 400px;
+    background-color: #7e71d8;
+    border-radius: 5px;
+}
+.auth_title{
+    font-size: 22px;
+    font-weight: 700;
+    color:white;
+}
+.auth_form{
+    font-size: 22px!important;
+    margin: 1rem 0;
+}
+.auth_button{
+    transition: 0.3s linear!important;
+    margin-top:1rem;
+    width: 100%;
+    background-color: #aaa3db !important;
+    border-color:#9585ff!important;
+    text-transform: uppercase;
+}
+.auth_button:focus{
+    box-shadow:none!important;
+}
+.auth_button:hover{
+    background-color: #b9b3e7!important;
+}
